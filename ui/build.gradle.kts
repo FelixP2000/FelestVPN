@@ -63,7 +63,7 @@ android {
 }
 
 dependencies {
-    implementation(project(":tunnel"))
+    implementation(files("libs/tunnel-release.aar"))
     implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.annotation)
     implementation(libs.androidx.appcompat)

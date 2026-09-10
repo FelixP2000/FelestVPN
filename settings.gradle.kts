@@ -14,6 +14,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        flatDir {
+            dirs("libs")
+        }
     }
 }
 
@@ -23,7 +26,7 @@ plugins {
 
 rootProject.name = "amneziawg-android"
 
-include(":tunnel")
+//include(":tunnel")
 include(":ui")
 
 configure<SettingsExtension> {
