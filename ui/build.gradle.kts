@@ -19,7 +19,7 @@ android {
     }
     namespace = pkg
     defaultConfig {
-        applicationId = pkg
+        applicationId = "net.felixp.felestvpn"
         targetSdk = 36
         versionCode = providers.gradleProperty("amneziawgVersionCode").get().toInt()
         versionName = providers.gradleProperty("amneziawgVersionName").get()

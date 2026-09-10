@@ -5,7 +5,7 @@
 
 package org.amnezia.awg.crypto;
 
-import org.amnezia.awg.util.NonNullForAll;
+import net.felixp.felestvpn.util.NonNullForAll;
 
 /**
  * Represents a Curve25519 key pair as used by AmneziaWG.

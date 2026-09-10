@@ -11,7 +11,7 @@ import org.amnezia.awg.config.BadConfigException.Section;
 import org.amnezia.awg.crypto.Key;
 import org.amnezia.awg.crypto.KeyFormatException;
 import org.amnezia.awg.crypto.KeyPair;
-import org.amnezia.awg.util.NonNullForAll;
+import net.felixp.felestvpn.util.NonNullForAll;
 
 import java.net.InetAddress;
 import java.util.Collection;

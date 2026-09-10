@@ -5,15 +5,15 @@
 
     <data>
 
-        <import type="org.amnezia.awg.model.ObservableTunnel" />
+        <import type="net.felixp.felestvpn.model.ObservableTunnel" />
 
-        <import type="org.amnezia.awg.model.ObservableTunnel.ConnectionStatus" />
+        <import type="net.felixp.felestvpn.model.ObservableTunnel.ConnectionStatus" />
 
         <import type="org.amnezia.awg.backend.Tunnel.State" />
 
         <variable
             name="collection"
-            type="org.amnezia.awg.databinding.ObservableKeyedArrayList&lt;String, ObservableTunnel&gt;" />
+            type="net.felixp.felestvpn.databinding.ObservableKeyedArrayList&lt;String, ObservableTunnel&gt;" />
 
         <variable
             name="key"
@@ -21,14 +21,14 @@
 
         <variable
             name="item"
-            type="org.amnezia.awg.model.ObservableTunnel" />
+            type="net.felixp.felestvpn.model.ObservableTunnel" />
 
         <variable
             name="fragment"
-            type="org.amnezia.awg.fragment.TunnelListFragment" />
+            type="net.felixp.felestvpn.fragment.TunnelListFragment" />
     </data>
 
-    <org.amnezia.awg.widget.MultiselectableRelativeLayout
+    <net.felixp.felestvpn.widget.MultiselectableRelativeLayout
         android:id="@+id/tunnel_list_item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -71,7 +71,7 @@
                 tools:textColor="@color/tunnel_status_connected" />
         </LinearLayout>
 
-        <org.amnezia.awg.widget.ToggleSwitch
+        <net.felixp.felestvpn.widget.ToggleSwitch
             android:id="@+id/tunnel_switch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -81,5 +81,5 @@
             app:checked="@{item.state == State.UP}"
             app:onBeforeCheckedChanged="@{fragment::setTunnelState}"
             tools:checked="@sample/interface_names.json/names/checked/checked" />
-    </org.amnezia.awg.widget.MultiselectableRelativeLayout>
+    </net.felixp.felestvpn.widget.MultiselectableRelativeLayout>
 </layout>

@@ -7,7 +7,7 @@
 
         <import type="android.view.View" />
 
-        <import type="org.amnezia.awg.model.ObservableTunnel" />
+        <import type="net.felixp.felestvpn.model.ObservableTunnel" />
 
         <import type="org.amnezia.awg.backend.Tunnel.State" />
 
@@ -25,10 +25,10 @@
 
         <variable
             name="item"
-            type="org.amnezia.awg.model.ObservableTunnel" />
+            type="net.felixp.felestvpn.model.ObservableTunnel" />
     </data>
 
-    <org.amnezia.awg.widget.TvCardView
+    <net.felixp.felestvpn.widget.TvCardView
         android:layout_width="225dp"
         android:layout_height="110dp"
         android:layout_margin="8dp"
@@ -77,6 +77,6 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-    </org.amnezia.awg.widget.TvCardView>
+    </net.felixp.felestvpn.widget.TvCardView>
 
 </layout>

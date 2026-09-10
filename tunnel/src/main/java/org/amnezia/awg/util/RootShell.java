@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.amnezia.awg.util;
+package net.felixp.felestvpn.util;
 
 import android.content.Context;
 import android.util.Log;
 
-import org.amnezia.awg.util.RootShell.RootShellException.Reason;
-import org.amnezia.awg.util.NonNullForAll;
+import net.felixp.felestvpn.util.RootShell.RootShellException.Reason;
+import net.felixp.felestvpn.util.NonNullForAll;
 
 import java.io.BufferedReader;
 import java.io.File;

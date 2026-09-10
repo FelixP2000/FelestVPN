@@ -7,15 +7,15 @@
 
         <import type="org.amnezia.awg.backend.Tunnel.State" />
 
-        <import type="org.amnezia.awg.util.ClipboardUtils" />
+        <import type="net.felixp.felestvpn.util.ClipboardUtils" />
 
         <variable
             name="fragment"
-            type="org.amnezia.awg.fragment.TunnelDetailFragment" />
+            type="net.felixp.felestvpn.fragment.TunnelDetailFragment" />
 
         <variable
             name="tunnel"
-            type="org.amnezia.awg.model.ObservableTunnel" />
+            type="net.felixp.felestvpn.model.ObservableTunnel" />
 
         <variable
             name="config"
@@ -57,7 +57,7 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
-                    <org.amnezia.awg.widget.ToggleSwitch
+                    <net.felixp.felestvpn.widget.ToggleSwitch
                         android:id="@+id/tunnel_switch"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

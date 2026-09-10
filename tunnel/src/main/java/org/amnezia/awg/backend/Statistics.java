@@ -8,7 +8,7 @@ package org.amnezia.awg.backend;
 import android.os.SystemClock;
 
 import org.amnezia.awg.crypto.Key;
-import org.amnezia.awg.util.NonNullForAll;
+import net.felixp.felestvpn.util.NonNullForAll;
 
 import java.util.HashMap;
 import java.util.Map;

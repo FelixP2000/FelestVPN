@@ -5,7 +5,7 @@
 
 package org.amnezia.awg.backend;
 
-import org.amnezia.awg.util.NonNullForAll;
+import net.felixp.felestvpn.util.NonNullForAll;
 
 import java.util.regex.Pattern;
 

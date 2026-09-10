@@ -11,11 +11,11 @@ import android.util.Pair;
 
 import org.amnezia.awg.backend.BackendException.Reason;
 import org.amnezia.awg.backend.Tunnel.State;
-import org.amnezia.awg.util.RootShell;
-import org.amnezia.awg.util.ToolsInstaller;
+import net.felixp.felestvpn.util.RootShell;
+import net.felixp.felestvpn.util.ToolsInstaller;
 import org.amnezia.awg.config.Config;
 import org.amnezia.awg.crypto.Key;
-import org.amnezia.awg.util.NonNullForAll;
+import net.felixp.felestvpn.util.NonNullForAll;
 
 import java.io.File;
 import java.io.FileOutputStream;

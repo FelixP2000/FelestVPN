@@ -14,14 +14,14 @@ import android.util.Log;
 
 import org.amnezia.awg.backend.BackendException.Reason;
 import org.amnezia.awg.backend.Tunnel.State;
-import org.amnezia.awg.util.SharedLibraryLoader;
+import net.felixp.felestvpn.util.SharedLibraryLoader;
 import org.amnezia.awg.config.Config;
 import org.amnezia.awg.config.InetEndpoint;
 import org.amnezia.awg.config.InetNetwork;
 import org.amnezia.awg.config.Peer;
 import org.amnezia.awg.crypto.Key;
 import org.amnezia.awg.crypto.KeyFormatException;
-import org.amnezia.awg.util.NonNullForAll;
+import net.felixp.felestvpn.util.NonNullForAll;
 
 import java.net.InetAddress;
 import java.util.Collections;

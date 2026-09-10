@@ -5,7 +5,7 @@
 
     <data>
 
-        <import type="org.amnezia.awg.util.ClipboardUtils" />
+        <import type="net.felixp.felestvpn.util.ClipboardUtils" />
 
         <variable
             name="item"

@@ -6,7 +6,7 @@
 
 package org.amnezia.awg.crypto;
 
-import org.amnezia.awg.util.NonNullForAll;
+import net.felixp.felestvpn.util.NonNullForAll;
 
 import java.util.Arrays;
 

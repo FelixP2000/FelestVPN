@@ -5,7 +5,7 @@
 
 package org.amnezia.awg.backend;
 
-import org.amnezia.awg.util.NonNullForAll;
+import net.felixp.felestvpn.util.NonNullForAll;
 
 /**
  * A subclass of {@link Exception} that encapsulates the reasons for a failure originating in

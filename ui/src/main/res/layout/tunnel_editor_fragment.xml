@@ -5,19 +5,19 @@
 
     <data>
 
-        <import type="org.amnezia.awg.util.ClipboardUtils" />
+        <import type="net.felixp.felestvpn.util.ClipboardUtils" />
 
-        <import type="org.amnezia.awg.widget.KeyInputFilter" />
+        <import type="net.felixp.felestvpn.widget.KeyInputFilter" />
 
-        <import type="org.amnezia.awg.widget.NameInputFilter" />
+        <import type="net.felixp.felestvpn.widget.NameInputFilter" />
 
         <variable
             name="fragment"
-            type="org.amnezia.awg.fragment.TunnelEditorFragment" />
+            type="net.felixp.felestvpn.fragment.TunnelEditorFragment" />
 
         <variable
             name="config"
-            type="org.amnezia.awg.viewmodel.ConfigProxy" />
+            type="net.felixp.felestvpn.viewmodel.ConfigProxy" />
 
         <variable
             name="name"

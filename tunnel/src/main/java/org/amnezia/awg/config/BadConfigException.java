@@ -6,7 +6,7 @@
 package org.amnezia.awg.config;
 
 import org.amnezia.awg.crypto.KeyFormatException;
-import org.amnezia.awg.util.NonNullForAll;
+import net.felixp.felestvpn.util.NonNullForAll;
 
 import androidx.annotation.Nullable;
 

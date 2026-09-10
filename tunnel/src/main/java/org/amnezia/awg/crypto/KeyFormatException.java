@@ -5,7 +5,7 @@
 
 package org.amnezia.awg.crypto;
 
-import org.amnezia.awg.util.NonNullForAll;
+import net.felixp.felestvpn.util.NonNullForAll;
 
 /**
  * An exception thrown when attempting to parse an invalid key (too short, too long, or byte

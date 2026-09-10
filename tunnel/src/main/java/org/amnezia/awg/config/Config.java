@@ -8,7 +8,7 @@ package org.amnezia.awg.config;
 import org.amnezia.awg.config.BadConfigException.Location;
 import org.amnezia.awg.config.BadConfigException.Reason;
 import org.amnezia.awg.config.BadConfigException.Section;
-import org.amnezia.awg.util.NonNullForAll;
+import net.felixp.felestvpn.util.NonNullForAll;
 
 import java.io.BufferedReader;
 import java.io.IOException;

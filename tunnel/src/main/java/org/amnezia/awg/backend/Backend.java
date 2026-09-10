@@ -6,7 +6,7 @@
 package org.amnezia.awg.backend;
 
 import org.amnezia.awg.config.Config;
-import org.amnezia.awg.util.NonNullForAll;
+import net.felixp.felestvpn.util.NonNullForAll;
 
 import java.util.Set;
 
